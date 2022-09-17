@@ -7,7 +7,7 @@ plans = [
   { place: "九州", price: 15_000 }
 ]
 # メソッドの呼び出し
-plan_index(plans)
-plan_selected = plan_select(plans)
-plan_chose_number = plan_choose_number(plan_selected)
-plan_total_price(plan_chose_number, plan_selected)
+disp_plans(plans)
+selected_plan = select_plan(plans)
+chose_plan_num = choose_plan_num(selected_plan)
+total_charge(chose_plan_num, selected_plan)
